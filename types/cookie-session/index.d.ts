@@ -89,7 +89,7 @@ declare namespace CookieSessionInterfaces {
         /**
          * Is true if the session is new.
          */
-        isNew: boolean;
+        isNew?: boolean;
 
         /**
          * Determine if the session has been populated with data or is empty.
